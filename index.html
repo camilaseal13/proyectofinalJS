@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de entrenamiento y recetas</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <h1>Simulador de entrenamiento y recetas</h1>
+
+    <section id="account-setup">
+        <h2>Crear Cuenta</h2>
+        <input type="text" id="username" placeholder="Nombre de Usuario">
+        <input type="password" id="password" placeholder="Contraseña">
+        <button id="create-account">Crear Cuenta</button>
+    </section>
+
+    <section id="login-section">
+        <h2>Iniciar Sesión</h2>
+        <input type="text" id="login-username" placeholder="Usuario">
+        <input type="password" id="login-password" placeholder="Contraseña">
+        <button id="login">Iniciar Sesión</button>
+        <p id="login-message"></p>
+    </section>
+
+    <section id="goal-selection" style="display: none;">
+        <h2>Selecciona tu objetivo</h2>
+        <button data-goal="1">Déficit Calórico</button>
+        <button data-goal="2">Ganar Músculo</button>
+        <button data-goal="3">Mantenerse en Forma</button>
+    </section>
+
+    <section id="results" style="display: none;">
+        <h2>Resultado de tu selección</h2>
+        <div id="exercise-list"></div>
+        <div id="meal-list"></div>
+    </section>
+
+    <button id="logout" style="display: none;">Cerrar sesión</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

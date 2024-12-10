@@ -1,0 +1,43 @@
+{
+    "rutinas": {
+        "deficitCalorico": [
+            "Correr 30 min",
+            "Sentadillas 3x15",
+            "Burpees 3x10",
+            "Planchas 3x30 segundos"
+        ],
+        "ganarMusculo": [
+            "Peso muerto 3x10",
+            "Press de banca 3x12",
+            "Sentadillas 4x12",
+            "Dominadas 3x8"
+        ],
+        "mantenerseForma": [
+            "Trotar 20 min",
+            "Flexiones 3x12",
+            "Sentadillas 3x15",
+            "Abdominales 3x20"
+        ]
+    },
+    "comidas": {
+        "deficitCalorico": [
+            "Ensalada verde",
+            "Pescado al horno con verduras",
+            "Sopa de verduras",
+            "Frutas frescas"
+        ],
+        "ganarMusculo": [
+            "Pollo a la parrilla con arroz integral",
+            "Batido de proteínas",
+            "Tortilla de claras de huevo con espinacas",
+            "Frutos secos"
+        ],
+        "mantenerseForma": [
+            "Yogur con granola y frutas",
+            "Salmón con quinoa",
+            "Pasta integral con verduras",
+            "Té verde"
+        ]
+    }
+}
+
